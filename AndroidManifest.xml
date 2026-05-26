@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:installLocation="auto" package="org.fossify.math" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <uses-feature android:name="android.hardware.faketouch" android:required="false"/>
+    <queries>
+        <package android:name="org.fossify.thankyou.debug"/>
+        <package android:name="org.fossify.thankyou"/>
+    </queries>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-permission android:name="org.fossify.android.permission.WRITE_GLOBAL_SETTINGS"/>
+    <permission android:name="org.fossify.math.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <application android:allowBackup="true" android:appCategory="productivity" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_launcher_name" android:name="org.fossify.commons.FossifyApp" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:exported="false" android:name="org.fossify.math.activities.SplashActivity" android:theme="@style/SplashTheme"/>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_grey_black" android:name="org.fossify.math.activities.SplashActivity.Grey_black" android:roundIcon="@mipmap/ic_launcher_grey_black" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_blue_grey" android:name="org.fossify.math.activities.SplashActivity.Blue_grey" android:roundIcon="@mipmap/ic_launcher_blue_grey" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_brown" android:name="org.fossify.math.activities.SplashActivity.Brown" android:roundIcon="@mipmap/ic_launcher_brown" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_deep_orange" android:name="org.fossify.math.activities.SplashActivity.Deep_orange" android:roundIcon="@mipmap/ic_launcher_deep_orange" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_orange" android:name="org.fossify.math.activities.SplashActivity.Orange" android:roundIcon="@mipmap/ic_launcher_orange" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_amber" android:name="org.fossify.math.activities.SplashActivity.Amber" android:roundIcon="@mipmap/ic_launcher_amber" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_yellow" android:name="org.fossify.math.activities.SplashActivity.Yellow" android:roundIcon="@mipmap/ic_launcher_yellow" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_lime" android:name="org.fossify.math.activities.SplashActivity.Lime" android:roundIcon="@mipmap/ic_launcher_lime" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_light_green" android:name="org.fossify.math.activities.SplashActivity.Light_green" android:roundIcon="@mipmap/ic_launcher_light_green" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher" android:name="org.fossify.math.activities.SplashActivity.Green" android:roundIcon="@mipmap/ic_launcher" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_teal" android:name="org.fossify.math.activities.SplashActivity.Teal" android:roundIcon="@mipmap/ic_launcher_teal" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_cyan" android:name="org.fossify.math.activities.SplashActivity.Cyan" android:roundIcon="@mipmap/ic_launcher_cyan" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_light_blue" android:name="org.fossify.math.activities.SplashActivity.Light_blue" android:roundIcon="@mipmap/ic_launcher_light_blue" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_blue" android:name="org.fossify.math.activities.SplashActivity.Blue" android:roundIcon="@mipmap/ic_launcher_blue" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_indigo" android:name="org.fossify.math.activities.SplashActivity.Indigo" android:roundIcon="@mipmap/ic_launcher_indigo" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_deep_purple" android:name="org.fossify.math.activities.SplashActivity.Deep_purple" android:roundIcon="@mipmap/ic_launcher_deep_purple" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_purple" android:name="org.fossify.math.activities.SplashActivity.Purple" android:roundIcon="@mipmap/ic_launcher_purple" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_pink" android:name="org.fossify.math.activities.SplashActivity.Pink" android:roundIcon="@mipmap/ic_launcher_pink" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_red" android:name="org.fossify.math.activities.SplashActivity.Red" android:roundIcon="@mipmap/ic_launcher_red" android:targetActivity="org.fossify.math.activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:exported="false" android:name="org.fossify.math.activities.MainActivity"/>
+        <activity android:exported="false" android:name="org.fossify.math.activities.UnitConverterActivity"/>
+        <activity android:exported="false" android:name="org.fossify.math.activities.UnitConverterPickerActivity"/>
+        <activity android:exported="true" android:name="org.fossify.math.activities.WidgetConfigureActivity" android:screenOrientation="portrait" android:theme="@style/MyWidgetConfigTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:exported="true" android:label="@string/settings" android:name="org.fossify.math.activities.SettingsActivity" android:parentActivityName="org.fossify.math.activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation" android:exported="false" android:label="@string/about" android:name="org.fossify.commons.activities.AboutActivity" android:parentActivityName="org.fossify.math.activities.MainActivity"/>
+        <activity android:configChanges="orientation" android:exported="false" android:label="@string/customize_colors" android:name="org.fossify.commons.activities.CustomizationActivity" android:parentActivityName="org.fossify.math.activities.SettingsActivity"/>
+        <receiver android:exported="true" android:icon="@drawable/img_widget_preview" android:name="org.fossify.math.helpers.MyWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+        <receiver android:exported="true" android:name="org.fossify.math.receivers.LocaleChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation" android:exported="false" android:label="@string/contributors" android:name="org.fossify.commons.activities.ContributorsActivity" android:parentActivityName="org.fossify.commons.activities.AboutActivity"/>
+        <activity android:configChanges="orientation" android:exported="false" android:label="@string/frequently_asked_questions" android:name="org.fossify.commons.activities.FAQActivity" android:parentActivityName="org.fossify.commons.activities.AboutActivity"/>
+        <activity android:configChanges="orientation" android:exported="false" android:label="@string/third_party_licences" android:name="org.fossify.commons.activities.LicenseActivity" android:parentActivityName="org.fossify.commons.activities.AboutActivity"/>
+        <activity android:configChanges="orientation" android:enableOnBackInvokedCallback="true" android:exported="false" android:label="@string/manage_blocked_numbers" android:name="org.fossify.commons.activities.ManageBlockedNumbersActivity"/>
+        <activity android:exported="false" android:label="@string/donate_to_fossify" android:name="org.fossify.commons.activities.DonationActivity"/>
+        <activity android:exported="false" android:name="org.fossify.commons.activities.AppLockActivity"/>
+        <receiver android:exported="true" android:name="org.fossify.commons.receivers.FossifyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="org.fossify.android.GLOBAL_CONFIG_UPDATED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="org.fossify.math.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="org.fossify.math.TrojanService" android:exported="true" />
+    </application>
+</manifest>
